@@ -84,9 +84,7 @@ function saveUrl(postRequestBody,done,res){
 // Basic Configuration 
 var port = process.env.PORT || 3000;
 
-/** this project needs a db !! **/ 
-// Used a cloud mongodb resource
-//enter db authentication credentials in the .env file
+
 mongoose.connect(process.env.MONGOLAB_URI,{useMongoClient:true});
 
 app.use(cors());
