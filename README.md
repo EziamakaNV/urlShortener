@@ -22,3 +22,7 @@ Regular expression in used to validate that the appropriate url is posted
 If it conforms, the domain module is used to check if the domain name is active.
 Once confirmed, the server initiates the domain name storage process.
 Two collections are created, one to store the counter of the shorturl and another to store the original url and its associated shortUrl.
+
+
+
+Editied to test how branches work :)
